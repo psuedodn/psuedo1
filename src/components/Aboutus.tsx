@@ -776,7 +776,7 @@ const WhyGazo = () => {
       </main>
       <div
         id="footer"
-        className="rn-footer-area footer-style-2 rn-section-gapTop footerBg1"
+        className="rn-footer-area footer-style-2 rn-section-gapTop footerBg1 footerBgGrey"
       >
         <div className="container mt--90 pb_sm--40 plr_sm--20">
           <div className="row">
