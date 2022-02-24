@@ -248,6 +248,9 @@ a.animated-button.victoria-three:hover:after {
   border-radius: 25px;
   padding: 2%;
 }
+.footerBgGrey {
+  background-color: #242424;
+}
 .color_blk {
   color: #000 !important;
 }
