@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/Fino_logo.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+
+  <title>::Fino::</title>
+
+
+  <meta charset="UTF-8">
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+  <title>&bull; Fino.finance | The Best Auto-Staking &amp; Auto-Compounding Protocol in Crypto</title>
+  <meta name="description"
+    content="Fino rewards holders with compounding interest. Just buy, hold and see your portfolio grow up to 102,483.58% APY" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title"
+    content="&bull; Fino.finance | The Best Auto-Staking &amp; Auto-Compounding Protocol in Crypto" />
+  <meta property="og:description"
+    content="Fino rewards holders with compounding interest. Just buy, hold and see your portfolio grow up to 102,483.58% APY" />
+
+  <meta property="og:site_name"
+    content="Fino.finance | The Best Auto-Staking &amp; Auto-Compounding Protocol in Crypto" />
+  <meta property="article:modified_time" content="2021-12-28T17:10:28+00:00" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1076" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@FinoFinance" />
+  <meta name="twitter:label1" content="Est. reading time" />
+  <meta name="twitter:data1" content="5 minutes" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <!-- CSS 
+  ============================================ -->
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/slick.css" />
+  <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/vendor/aos.css" />
+  <link rel="stylesheet" href="assets/css/plugins/feature.css" />
+  <!-- Style css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/res.css" />
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  <!-- JS ============================================ -->
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/vendor/modernizer.min.js"></script>
+  <script src="assets/js/vendor/feather.min.js"></script>
+  <script src="assets/js/vendor/slick.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.js"></script>
+  <script src="assets/js/vendor/text-type.js"></script>
+  <script src="assets/js/vendor/wow.js"></script>
+  <script src="assets/js/vendor/aos.js"></script>
+  <script src="assets/js/vendor/particles.js"></script>
+  <script src="assets/js/vendor/custom.js"></script>
+  <!-- main JS -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      (function ($) {
+        'use strict';
+
+        var imJs = {
+          m: function (e) {
+            imJs.d();
+            imJs.methods();
+          },
+          d: function (e) {
+            (this._window = $(window)),
+              (this._document = $(document)),
+              (this._body = $('body')),
+              (this._html = $('html'));
+          },
+          methods: function (e) {
+            imJs.mobileMenuActive();
+          },
+          wowActive: function () {
+            new WOW().init();
+          },
+          mobileMenuActive: function (e) {
+            $('.humberger-menu').on('click', function (e) {
+              e.preventDefault();
+              $('.popup-mobile-menu').addClass('menu-open');
+              imJs._html.css({
+                overflow: 'hidden',
+              });
+            });
+
+            $(
+              '.close-menu-activation, .popup-mobile-menu .primary-menu .nav-item a'
+            ).on('click', function (e) {
+              e.preventDefault();
+              $('.popup-mobile-menu').removeClass('menu-open');
+              $('.has-droupdown > a')
+                .removeClass('open')
+                .siblings('.submenu')
+                .removeClass('active')
+                .slideUp('400');
+              imJs._html.css({
+                overflow: '',
+              });
+            });
+
+            $('.popup-mobile-menu').on('click', function (e) {
+              e.target === this && $('.popup-mobile-menu').removeClass('menu-open');
+              imJs._html.css({
+                overflow: '',
+              });
+            });
+
+            $('.has-droupdown > a').on('click', function (e) {
+              e.preventDefault();
+              $(this).siblings('.submenu').toggleClass('active').slideToggle('400');
+              $(this).toggleClass('open');
+              imJs._html.css({
+                overflow: '',
+              });
+            });
+
+            $('.nav-pills .nav-link').on('click', function (e) {
+              $('.rn-popup-mobile-menu').removeClass('menu-open');
+              imJs._html.css({
+                overflow: '',
+              });
+            });
+          },
+
+          awsActivation: function (e) {
+            AOS.init();
+          },
+        };
+        imJs.m();
+      })(jQuery, window);
+    });
+
+  </script>
+</body>
+
+</html>
