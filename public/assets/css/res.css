@@ -1,6 +1,15 @@
 h6 {
   font-size: 14px;
 }
+.title.forLap {
+  width: 60% !important;
+}
+.ourprod1 {
+  margin-top: 20px !important;
+}
+.earningsAreCal {
+  margin-top: 20px !important;
+}
 .timerAlign {
   display: inline-block;
   font-size: 1.75vw;
@@ -246,7 +255,6 @@ a.animated-button.victoria-three:hover:after {
 .bg_greyAbt {
   background-color: #333;
   border-radius: 25px;
-  padding: 2%;
 }
 .footerBgGrey {
   background-color: #242424;
@@ -392,9 +400,40 @@ a.rn-btn {
   display: inline-block;
   width: 170px !important;
 }
+.aboutBlock {
+  padding: 30px 20px 20px 20px;
+}
 @media only screen and (max-width: 450px) {
+  .contant.aboutBlock {
+    top: 15% !important;
+  }
+  .arePowered {
+    /* position: relative;
+    top: 40px; */
+  }
+  .btm_align_earn {
+    margin-bottom: 2% !important;
+  }
+  .title.lineHAlign {
+    position: relative;
+    top: 50px;
+  }
+  .title.lineHAlign.forMobi {
+    position: relative;
+    top: 60px;
+  }
+  .color_white.forMobi {
+    position: relative;
+    top: 70px;
+  }
+  .title.forLap {
+    width: 100% !important;
+  }
   .rn-about-area .contant {
-    top: 51px;
+    /* top: 35px; */
+  }
+  .contant.firstInNever {
+    top: 170px !important;
   }
   .rewardsSecAlign {
     margin: 50px 0 0 0;
@@ -412,6 +451,9 @@ a.rn-btn {
 }
 
 @media only screen and (max-width: 1024px) {
+  .title.forLap {
+    width: 100% !important;
+  }
   .finoRewards {
     line-height: 1.35 !important;
   }
@@ -436,7 +478,7 @@ a.rn-btn {
     padding: 2% 0 2% 0;
   }
   .slide .content .inner .title {
-    padding: 0px 0 0 0;
+    padding: 30px 0 0 0;
   }
   h1,
   .h1 {
@@ -496,6 +538,9 @@ a.rn-btn {
     margin-top: 7px;
     text-align: center;
   }
+  /* .section-title h2.title.tekno {
+    font-size: 3vw;
+  } */
   .rn-about-area .contant .discription {
     text-align: center;
     padding: 0 2% !important;
@@ -540,7 +585,7 @@ a.rn-btn {
   .footer-style-2 .menu-wrapper .menu-footer li a,
   .footer-style-2 .menu-wrapper .menu-title h6,
   .slide .social-share-inner-left .social-share li a {
-    font-size: 3.75vw !important;
+    font-size: 2vw !important;
   }
 
   .preSale {
@@ -697,5 +742,25 @@ a.rn-btn {
   }
   .dayStr {
     color: #fff;
+  }
+}
+
+@media only screen and (min-width: 768) {
+}
+
+@media screen and (orientation: portrait) {
+  .ourprod1 {
+    margin-top: 100px;
+  }
+  .earningsAreCal {
+    margin-top: 60px !important;
+  }
+  .footer-style-2 .menu-wrapper .menu-footer li a,
+  .footer-style-2 .menu-wrapper .menu-title h6,
+  .slide .social-share-inner-left .social-share li a {
+    font-size: 3vw !important;
+  }
+  .rewardsSecAlign {
+    margin: 50px 0 0 0 !important;
   }
 }
