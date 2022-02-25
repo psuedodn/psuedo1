@@ -45,7 +45,7 @@
   <meta property="og:image:width" content="1920" />
   <meta property="og:image:height" content="1076" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@FinoDao" />
+  <meta name="twitter:site" content="@FinoFinance" />
   <meta name="twitter:label1" content="Est. reading time" />
   <meta name="twitter:data1" content="5 minutes" />
 
@@ -61,6 +61,9 @@
   <!-- Style css -->
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/res.css" />
+  <link rel="stylesheet" href="assets/flag-icon.css" />
+  <link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
+
 </head>
 
 <body>
@@ -88,10 +91,30 @@
   <script src="assets/js/vendor/aos.js"></script>
   <script src="assets/js/vendor/particles.js"></script>
   <script src="assets/js/vendor/custom.js"></script>
+
+
+  <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+  <!-- <script src="assets/js/script.js"></script> -->
+
   <!-- main JS -->
   <script src="assets/js/main.js"></script>
   <script>
     $(document).ready(function () {
+      jQuery('.carousel-main').flickity({
+        contain: true,
+        pageDots: false,
+        prevNextButtons: false,
+      });
+      jQuery('.carousel-main').on('settle.flickity', function () {
+        newTarg = jQuery('.carousel-cell.flex-video').not('.is-selected');
+        jQuery(newTarg)
+          .find('iframe')
+          .each(function () {
+            var src = $(this).attr('src');
+            $(this).attr('src', src);
+          });
+        console.log('slide changes');
+      });
       (function ($) {
         'use strict';
 
@@ -165,6 +188,22 @@
           },
         };
         imJs.m();
+
+
+        jQuery('.carousel-main').flickity({
+          contain: true,
+          pageDots: false,
+          prevNextButtons: false,
+        });
+        jQuery('.carousel-main').on('settle.flickity', function () {
+          newTarg = jQuery(".carousel-cell.flex-video").not('.is-selected');
+          jQuery(newTarg).find('iframe').each(function () {
+            var src = $(this).attr('src');
+            $(this).attr('src', src);
+          });
+          console.log('slide changes');
+
+        });
       })(jQuery, window);
     });
 
