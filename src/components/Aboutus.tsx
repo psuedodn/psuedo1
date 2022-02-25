@@ -8,6 +8,14 @@ import CombinedShape from '../assets/CombinedShape.png';
 import Controller from '../assets/controller.png';
 import ThreeCircle from '../assets/threeCircle.png';
 import TwoCircle from '../assets/twoCircle.png';
+import FirstImg from '../assets/1.png';
+import SecondImg from '../assets/2.png';
+import ThirdImg from '../assets/3.png';
+import FourthImg from '../assets/4.png';
+import FifthImg from '../assets/5.png';
+import SixthImg from '../assets/6.png';
+import SeventhImg from '../assets/7.png';
+import EigthImg from '../assets/8.png';
 
 const WhyGazo = () => {
   const [showButton, setShowButton] = useState(false);
@@ -745,6 +753,135 @@ const WhyGazo = () => {
                 </div>
               </div>
             </div>
+            {/*    */}
+            <div className="row mt--50 justify-content-center">
+              <div className="col-xl-6 col-lg-12 col-sm-12 col-md-12 ">
+                <ul className="flagList">
+                  <li>
+                    <span className="flag-icon flag-icon-chn"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-sau"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-phl"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-deu"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-ita"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-ind"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-cat"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-idn"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-nld"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-caf"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-bgd"></span>
+                  </li>
+                  <li>
+                    <span className="flag-icon flag-icon-vnm"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="row mt--50 justify-content-center">
+              <div className="col-xl-6 col-lg-12 col-sm-12 col-md-12 ">
+                <div className="carousel carousel-main" data-flickity>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/_EOBiyTf5XA"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/0IveKpZkrWo"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/fk3Ox_quLFU"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/lauwz5y_Tf0"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/tQlEBkZQnH4"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/kzrS3cfaIuk"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/hbN1Y5DaXog"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                  <div className="carousel-cell flex-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/Cm9TyEvA_kw"
+                      frameBorder="0"
+                    ></iframe>
+                  </div>
+                </div>
+
+                <div
+                  className="carousel carousel-nav"
+                  data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'
+                >
+                  <div className="carousel-cell">
+                    <img src={FirstImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={SecondImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={ThirdImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={FourthImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={FifthImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={SixthImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={SeventhImg} alt="" />
+                  </div>
+                  <div className="carousel-cell">
+                    <img src={EigthImg} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*    */}
           </div>
         </div>
 
