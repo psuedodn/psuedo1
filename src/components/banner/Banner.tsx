@@ -174,10 +174,10 @@ const Banner = () => {
                               className=""
                             >
                               <div className="mt--30 pb--20 text-center">
-                                <h2 className=" pinkTxt">211465.20%</h2>
-                                <h6 className="mt--20 color_white">
+                                <h1 className=" pinkTxt">211465.20%</h1>
+                                <h5 className="mt--20 color_white">
                                   Fixed Staking APY
-                                </h6>
+                                </h5>
 
                                 <a
                                   className="rn-btn animated-button victoria-three"
