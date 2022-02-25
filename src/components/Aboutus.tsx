@@ -963,11 +963,11 @@ const WhyGazo = () => {
                 </div>
                 <ul className="menu-footer">
                   <li>
-                    <a href="#">Documentation</a>
+                    <a href="https://finofinance.gitbook.io/fino">Documentation</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Medium</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
