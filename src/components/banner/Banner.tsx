@@ -50,7 +50,16 @@ const Banner = () => {
                       <div className="social-share-inner-left">
                         <ul className="social-share d-flex liststyle">
                           <li className="instagram">
-                            <button type="button" className="glow-on-hover">
+                            <button 
+                             type="button"
+                             onClick={(e) => {
+                              e.preventDefault();
+                              window.open(
+                                'https://finofinance.gitbook.io/fino',
+                                '_blank'
+                              );
+                            }}
+                             className="glow-on-hover">
                               White Paper
                             </button>
                           </li>
@@ -119,10 +128,10 @@ const Banner = () => {
                     </div>
                   </div>
 
-                  <p className="preSale">
-                    Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC
-                  </p>
-                  <h5 className="timerAlign" id="targetData"></h5>
+                  {/* <p className="preSale"> */}
+                    {/* Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC */}
+                  {/* </p> */}
+                  {/* <h5 className="timerAlign" id="targetData"></h5> */}
                 </div>
 
                 <div id="about" className="rn-about-area   minusPosi">
