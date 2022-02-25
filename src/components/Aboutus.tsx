@@ -935,9 +935,9 @@ const WhyGazo = () => {
                   <li>
                     <a href="https://discord.gg/rtj2Gzx2b7">Discord</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Medium</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="https://github.com/finodao/contracts/tree/main">Github</a>
                   </li>
