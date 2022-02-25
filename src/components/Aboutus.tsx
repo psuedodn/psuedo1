@@ -141,7 +141,7 @@ const WhyGazo = () => {
               </ul>
 
               <div className="social-share-style-1 mt--40">
-                <span className="title">find with me</span>
+                {/* <span className="title">find with me</span>
                 <ul className="social-share d-flex liststyle">
                   <li className="facebook">
                     <a href="#">
@@ -208,8 +208,9 @@ const WhyGazo = () => {
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
+
             </div>
           </div>
         </div>
@@ -926,13 +927,13 @@ const WhyGazo = () => {
                 </div>
                 <ul className="menu-footer">
                   <li>
-                    <a href="#">Twitter</a>
+                    <a href="https://twitter.com/Fino_DAO">Twitter</a>
                   </li>
                   <li>
-                    <a href="#">Telegram</a>
+                    <a href="https://t.me/finofinance">Telegram</a>
                   </li>
                   <li>
-                    <a href="#">Discord</a>
+                    <a href="https://discord.com/invite/rtj2Gzx2b7">Discord</a>
                   </li>
                   <li>
                     <a href="#">Medium</a>
