@@ -55,22 +55,22 @@ const Banner = () => {
                             </button>
                           </li>
                           <li className="facebook">
-                            <button onclick="location.href='https://pancakeswap.finance/swap?outputCurrency=0x6C9AE5d6746ee1B6bD03310079AA11d8EC409212'" target='_blank' type="button" className="glow-on-hover">
+                            <button onclick="location.href='https://pancakeswap.finance/swap?outputCurrency=0x6C9AE5d6746ee1B6bD03310079AA11d8EC409212'" type="button" className="glow-on-hover">
                               Buy On Pancake Swap
                             </button>
                           </li>
                           <li className="instagram">
-                            <button onclick="location.href='https://poocoin.app/tokens/0x6c9ae5d6746ee1b6bd03310079aa11d8ec409212'" target='_blank' type="button" className="glow-on-hover">
+                            <button onclick="location.href='https://poocoin.app/tokens/0x6c9ae5d6746ee1b6bd03310079aa11d8ec409212'" type="button" className="glow-on-hover">
                               PooCoin Chart
                             </button>
                           </li>
                           <li className="instagram">
-                            <button onclick="location.href='https://www.dextools.io/app/bsc/pair-explorer/0xe973cb68fe664fa424fb39e0de2f95c85565b1b8'" target='_blank' type="button" className="glow-on-hover">
+                            <button onclick="location.href='https://www.dextools.io/app/bsc/pair-explorer/0xe973cb68fe664fa424fb39e0de2f95c85565b1b8'" type="button" className="glow-on-hover">
                               DexTool Chart
                             </button>
                           </li>
                           <li className="instagram">
-                            <button onclick="location.href='https://charts.bogged.finance/?c=bsc&t=0x6C9AE5d6746ee1B6bD03310079AA11d8EC409212'" target='_blank' type="button" className="glow-on-hover">
+                            <button onclick="location.href='https://charts.bogged.finance/?c=bsc&t=0x6C9AE5d6746ee1B6bD03310079AA11d8EC409212'" type="button" className="glow-on-hover">
                               BoggedChart
                             </button>
                           </li>
