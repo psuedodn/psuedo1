@@ -107,7 +107,7 @@ const Banner = () => {
                                 </h2>
                               </div>
                               <p className="discription color_white forMobi">
-                                Fino Finance is transforming DeFi with the Fino
+                                Fino Dao is transforming DeFi with the Fino
                                 Autostaking Protocol (FAP) that delivers the
                                 industry's highest fixed APY, rebasing rewards
                                 every 30 minutes, and a simple buy-hold-earn
