@@ -206,7 +206,10 @@ const WhyGazo = () => {
           </div>
         </div>
 
-        <div id="about" className="rn-about-area rewardsSecAlign bg_white">
+        <div
+          id="about"
+          className="rn-about-area rewardsSecAlign mt_sm--30 mt_lg--30 bg_white"
+        >
           <div className="col-12 mt_sm100 text-center">
             <div className="row justify-content-center">
               <div className="col-lg-6 col-xl-6 col-sm-12 col-12 ">
@@ -223,7 +226,7 @@ const WhyGazo = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-lg-6 col-xl-2 col-sm-12 col-12 d-none d-sm-block">
+              <div className="col-lg-6 col-xl-2 col-sm-12 col-12 d-none d-sm-none d-lg-none d-xl-block">
                 <img src={CupRight} alt="" />
               </div>
             </div>
@@ -246,7 +249,7 @@ const WhyGazo = () => {
               </div>
             </div>
             <div className="row row--25 mt_md--10 mt_sm--10 justify-content-center">
-              <div className="col-9">
+              <div className="col-xl-9 col-lg-12 col-sm-12 col-md-12">
                 <div className="row">
                   <div
                     data-aos="fade-up"
@@ -398,19 +401,20 @@ const WhyGazo = () => {
         <div id="about" className="rn-about-area rn-section-gap bg_black">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-9">
+              <div className="col-xl-9 col-lg-12 col-sm-12 col-md-12">
                 <div className="row">
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="100"
                     data-aos-once="true"
-                    className="col-lg-6 col-sm-12 mt_sm--30 aos-init aos-animate"
+                    className="col-xl-6 col-lg-12 col-sm-12 col-md-12
+                    aos-init aos-animate"
                   >
                     <div className="ThreeCircleAlign">
                       <img src={ThreeCircle} alt="" />
                     </div>
-                    <div className="contant">
+                    <div className="contant firstInNever">
                       <div className="section-title text-left">
                         <span className="subtitle color_white">
                           First In Never Out Game
@@ -422,7 +426,7 @@ const WhyGazo = () => {
                         allows Fino token holders to generate even more rewards.
                         Simple, Powerful and Proven.
                       </p>
-                      <div className="homeUlList">
+                      <div className="homeUlList mt--50">
                         <ul>
                           <li className="description color_white">
                             <p className="color_white">
@@ -453,7 +457,7 @@ const WhyGazo = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-xl-6 col-lg-12 col-sm-12 col-md-12">
                     <div className="controllerDotAlign">
                       <img src={CombinedShape} alt="" />
                     </div>
@@ -478,62 +482,54 @@ const WhyGazo = () => {
         <div id="about" className="rn-about-area rn-section-gap">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-9 ">
+              <div className="col-9 col-sm-12">
                 <div className="CombinedShape2">
                   <img src={CombinedShape} alt="" />
                 </div>
                 <div className="row justify-content-center">
-                  <h2 className="title mb--50 color_blk">
-                    How much can I earn?
-                  </h2>
+                  <h2 className="title color_blk">How much can I earn?</h2>
                 </div>
                 <div className="row bg_black padd_5Per bor_radius">
-                  <div className="col-12">
-                    <div className="contant">
-                      <div className="section-title text-left text-center">
-                        <div className="contant">
-                          <p className="discription color_white">
-                            Our products are powered by DeFi and are designed to
-                            help you effortlessly generate cash flow from your
-                            crypto.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className=" col-sm-12">
-                    <div
-                      data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-                      data-aos-once="true"
-                      className="text-center aos-init aos-animate section-title"
-                    >
-                      <h5 className="title m-sm-0 color_yellow">
-                        At the end of the year and with $1000 USD of $FINO
-                        invested.
-                      </h5>
-                    </div>
-                  </div>
-                  <div className=" col-sm-12">
-                    <div
-                      data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-                      data-aos-once="true"
-                      className="text-center aos-init aos-animate section-title"
-                    >
-                      <div className="btm_align_earn">
-                        <h5 className="title m-sm-0 color_yellow">
-                          You can earn up to $2,114,650.20 USD of $FINO at
-                          211465.20% APY*.
-                        </h5>
-                      </div>
-                      <div className="contant mt--40">
-                        <p className="discription mt-sm-5 color_white">
-                          Earnings are calculated in a scenario where the RFV
-                          sustains the rebase reward for 365 days.
+                  <div className="col-12 ourprod1">
+                    <div className="section-title text-left text-center">
+                      <div>
+                        <p className="discription color_white arePowered">
+                          Our products are powered by DeFi and are designed to
+                          help you effortlessly generate cash flow from your
+                          crypto.
                         </p>
+                        <div
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
+                          data-aos-delay="100"
+                          data-aos-once="true"
+                          className="text-center aos-init aos-animate section-title"
+                        >
+                          <h5 className="title m-sm-0 color_yellow">
+                            At the end of the year and with $1000 USD of $FINO
+                            invested.
+                          </h5>
+                        </div>
+                        <div
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
+                          data-aos-delay="100"
+                          data-aos-once="true"
+                          className="text-center aos-init aos-animate section-title"
+                        >
+                          <div className="btm_align_earn">
+                            <h5 className="title m-sm-0 color_yellow">
+                              You can earn up to $2,114,650.20 USD of $FINO at
+                              211465.20% APY*.
+                            </h5>
+                          </div>
+                          <div className="  mt--20 earningsAreCal">
+                            <p className="discription mt-sm-5 color_white">
+                              Earnings are calculated in a scenario where the
+                              RFV sustains the rebase reward for 365 days.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -546,9 +542,9 @@ const WhyGazo = () => {
         <div id="service" className="rn-service-area rn-section-gap bg_white">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-9">
+              <div className="col-xl-9 col-lg-6 col-sm-12 col-md-12 ">
                 <div className="row row--25 mt_md--10 mt_sm--10">
-                  <div className="col-md-8 col-sm-12">
+                  <div className="col-xl-9 col-lg-12 col-sm-12 col-md-12  ">
                     <div className="TwoCircleAlign">
                       <img src={TwoCircle} alt="" />
                     </div>
@@ -558,7 +554,7 @@ const WhyGazo = () => {
                         data-aos-duration="500"
                         data-aos-delay="100"
                         data-aos-once="true"
-                        className="col-lg-6 col-xl-6  col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        className="col-xl-6 col-lg-12 col-sm-12 col-md-12 mt--50 mt_md--30 mt_sm--30"
                       >
                         <div className="rn-service">
                           <div className="inner">
@@ -600,7 +596,7 @@ const WhyGazo = () => {
                         data-aos-duration="500"
                         data-aos-delay="300"
                         data-aos-once="true"
-                        className="col-lg-6 col-xl-6  col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        className=" col-xl-6 col-lg-12 col-sm-12 col-md-12 mt--50 mt_md--30 mt_sm--30"
                       >
                         <div className="rn-service">
                           <div className="inner">
@@ -641,7 +637,7 @@ const WhyGazo = () => {
                         data-aos-duration="500"
                         data-aos-delay="500"
                         data-aos-once="true"
-                        className="col-lg-6 col-xl-6  col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        className="col-xl-6 col-lg-12 col-sm-12 col-md-12 mt--50 mt_md--30 mt_sm--30"
                       >
                         <div className="rn-service">
                           <div className="inner">
@@ -690,7 +686,7 @@ const WhyGazo = () => {
                         data-aos-duration="500"
                         data-aos-delay="100"
                         data-aos-once="true"
-                        className="col-lg-6 col-xl-6  col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                        className="col-xl-6 col-lg-12 col-sm-12 col-md-12 mt--50 mt_md--30 mt_sm--30"
                       >
                         <div className="rn-service">
                           <div className="inner">
@@ -731,10 +727,10 @@ const WhyGazo = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-12  align-self-center">
+                  <div className="col-xl-3 col-lg-12 col-sm-12 col-md-12 align-self-center">
                     <div className="contant">
                       <div className="section-title text-left text-center mb--10">
-                        <h2 className="title mb--30 rn-about-area">
+                        <h2 className="title tekno mb--30 rn-about-area">
                           Tokenomics
                         </h2>
                         <div className="contant">

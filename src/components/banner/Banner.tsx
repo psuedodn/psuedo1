@@ -9,7 +9,7 @@ const Banner = () => {
               <div className="order-2 order-lg-1 col-lg-10 col-xl-10 col-12">
                 <div className="content">
                   <div className="inner mb_sm--80">
-                    <h1 className="title col-lg-6">
+                    <h1 className="title forLap col-lg-9 col-sm-10">
                       The Hyper Deflationary & Auto- Compounding Protocol in
                       Crypto
                     </h1>
@@ -45,7 +45,7 @@ const Banner = () => {
                     </div>
                   </div>
 
-                  <div className="row mt--100">
+                  <div className="row mt--50">
                     <div className="col-lg-12 col-xl-9 col-md-12 col-sm-12 ">
                       <div className="social-share-inner-left">
                         <ul className="social-share d-flex liststyle">
@@ -88,25 +88,25 @@ const Banner = () => {
                 <div id="about" className="rn-about-area   minusPosi">
                   <div className="container">
                     <div className="row justify-content-md-center">
-                      <div className="col-12">
+                      <div className="col-xl-12 col-lg-12 col-sm-12 col-md-12">
                         <div className="row bg_greyAbt">
                           <div
                             data-aos="fade-up"
                             data-aos-duration="1000"
                             data-aos-delay="100"
                             data-aos-once="true"
-                            className="col-lg-7 mt_sm--30"
+                            className="col-xl-7 col-lg-12 col-sm-12 col-md-12 mt_sm--30"
                           >
-                            <div className="contant">
+                            <div className="contant aboutBlock">
                               <div className="section-title text-left">
                                 <span className="subtitle color_white">
                                   About
                                 </span>
-                                <h2 className="title lineHAlign">
+                                <h2 className="title lineHAlign forMobi">
                                   Fino Auto-Staking & Auto-Compounding Protocol
                                 </h2>
                               </div>
-                              <p className="discription color_white">
+                              <p className="discription color_white forMobi">
                                 Fino Finance is transforming DeFi with the Fino
                                 Autostaking Protocol (FAP) that delivers the
                                 industry's highest fixed APY, rebasing rewards
@@ -116,7 +116,7 @@ const Banner = () => {
                               </p>
                             </div>
                           </div>
-                          <div className="col-lg-5">
+                          <div className="col-xl-3 col-lg-12 col-sm-12 col-md-12">
                             <div
                               data-aos="fade-up"
                               data-aos-duration="1000"
@@ -124,7 +124,7 @@ const Banner = () => {
                               data-aos-once="true"
                               className=""
                             >
-                              <div className="mt--20 text-center">
+                              <div className="mt--30 pb--20 text-center">
                                 <h2 className=" pinkTxt">211465.20%</h2>
                                 <h6 className="mt--20 color_white">
                                   Fixed Staking APY
