@@ -764,3 +764,77 @@ a.rn-btn {
     margin: 50px 0 0 0 !important;
   }
 }
+
+/*Players*/
+.carousel {
+  margin-bottom: 40px;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #212121;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+.carousel-cell img {
+  vertical-align: middle;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: none;
+}
+
+.carousel-main .carousel-cell:before {
+  display: none;
+}
+
+.carousel-nav .carousel-cell {
+  height: 80px;
+  width: 100px;
+}
+
+.carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+}
+.flex-video,
+.responsive-embed {
+  position: relative;
+  height: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+.flex-video embed,
+.flex-video iframe,
+.flex-video object,
+.flex-video video,
+.responsive-embed embed,
+.responsive-embed iframe,
+.responsive-embed object,
+.responsive-embed video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.flex-video.widescreen,
+.responsive-embed.widescreen {
+  padding-bottom: 56.25%;
+}
+.flagList {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+}
+.flagList li {
+  margin: 0 6% 3% 0;
+  padding: 0 0 0 0;
+  list-style: none;
+  display: inline-block;
+}
+/*Players*/
