@@ -933,13 +933,13 @@ const WhyGazo = () => {
                     <a href="https://t.me/finofinance">Telegram</a>
                   </li>
                   <li>
-                    <a href="https://discord.com/invite/rtj2Gzx2b7">Discord</a>
+                    <a href="https://discord.gg/rtj2Gzx2b7">Discord</a>
                   </li>
                   <li>
                     <a href="#">Medium</a>
                   </li>
                   <li>
-                    <a href="#">Github</a>
+                    <a href="https://github.com/finodao/contracts/tree/main">Github</a>
                   </li>
                 </ul>
               </div>
