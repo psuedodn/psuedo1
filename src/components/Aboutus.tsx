@@ -129,12 +129,12 @@ const WhyGazo = () => {
                   </a> */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smoth-animation" href="https://discord.gg/rtj2Gzx2b7">
+                  <a href="https://discord.gg/rtj2Gzx2b7" className="nav-link smoth-animation">
                     Discord
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smoth-animation" href="https://t.me/finofinance">
+                  <a href="https://t.me/finofinance" className="nav-link smoth-animation">
                     Telegram
                   </a>
                 </li>
