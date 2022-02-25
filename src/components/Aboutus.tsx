@@ -124,17 +124,17 @@ const WhyGazo = () => {
             <div className="content">
               <ul className="primary-menu nav nav-pills">
                 <li className="nav-item">
-                  <a className="nav-link smoth-animation active" href="#home">
+                  {/* <a className="nav-link smoth-animation active" href="#home">
                     FAQ's
-                  </a>
+                  </a> */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smoth-animation" href="#about">
+                  <a className="nav-link smoth-animation" href="https://discord.gg/rtj2Gzx2b7">
                     Discord
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link smoth-animation" href="#skill">
+                  <a className="nav-link smoth-animation" href="https://t.me/finofinance">
                     Telegram
                   </a>
                 </li>
