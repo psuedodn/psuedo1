@@ -141,6 +141,10 @@ const Banner = () => {
                             </button>
                           </li>
                         </ul>
+                        <p className="addressTxt">
+                          FINO Contract Address:
+                          0x6C9AE5d6746ee1B6bD03310079AA11d8EC409212
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -191,7 +195,7 @@ const Banner = () => {
                               className=""
                             >
                               <div className="mt--30 pb--20 text-center">
-                                <h1 className=" pinkTxt">211465.20%</h1>
+                                <h1 className="pinkTxt numBg">211465.20%</h1>
                                 <h5 className="mt--20 color_white">
                                   Fixed Staking APY
                                 </h5>

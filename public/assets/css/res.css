@@ -25,7 +25,7 @@ h6 {
 }
 .minusPosi {
   position: relative;
-  top: 25px;
+  top: 75px;
 }
 .rewardsSecAlign {
   margin: 350px 0 0 0;
@@ -267,6 +267,15 @@ a.animated-button.victoria-three:hover:after {
 }
 .color_yellow {
   color: #ffc107 !important;
+}
+.numBg {
+  background-color: #ffc107;
+  padding: 0 5px 0 5px;
+}
+.addressTxt {
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 0 0 0;
 }
 .padd_5Per {
   padding: 5%;
