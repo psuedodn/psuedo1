@@ -147,7 +147,7 @@ a.animated-button.victoria-three:hover:after {
   z-index: 0;
   border-radius: 10px;
   border: 2px solid #fffb00;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .glow-on-hover:before {
@@ -836,5 +836,12 @@ a.rn-btn {
   padding: 0 0 0 0;
   list-style: none;
   display: inline-block;
+}
+
+span.butt {
+  position: relative;
+  top: 0;
+  left: -5px;
+  padding: 0 5px 0 0;
 }
 /*Players*/

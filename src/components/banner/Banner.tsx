@@ -1,4 +1,8 @@
 import React from 'react';
+import DexTool from '../../assets/dextool.png';
+import Pancake from '../../assets/pancake.png';
+import Poocoin from '../../assets/poocoin.png';
+import Bogged from '../../assets/bogged.png';
 const Banner = () => {
   return (
     <div>
@@ -50,16 +54,17 @@ const Banner = () => {
                       <div className="social-share-inner-left">
                         <ul className="social-share d-flex liststyle">
                           <li className="instagram">
-                            <button 
-                             type="button"
-                             onClick={(e) => {
-                              e.preventDefault();
-                              window.open(
-                                'https://finofinance.gitbook.io/fino',
-                                '_blank'
-                              );
-                            }}
-                             className="glow-on-hover">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open(
+                                  'https://finofinance.gitbook.io/fino',
+                                  '_blank'
+                                );
+                              }}
+                              className="glow-on-hover"
+                            >
                               White Paper
                             </button>
                           </li>
@@ -75,6 +80,9 @@ const Banner = () => {
                               }}
                               className="glow-on-hover"
                             >
+                              <span className="butt">
+                                <img src={Pancake} />
+                              </span>
                               Buy On Pancake Swap
                             </button>
                           </li>
@@ -90,6 +98,9 @@ const Banner = () => {
                               }}
                               className="glow-on-hover"
                             >
+                              <span className="butt">
+                                <img src={Poocoin} />
+                              </span>
                               PooCoin Chart
                             </button>
                           </li>
@@ -105,6 +116,9 @@ const Banner = () => {
                               }}
                               className="glow-on-hover"
                             >
+                              <span className="butt">
+                                <img src={DexTool} />
+                              </span>
                               DexTool Chart
                             </button>
                           </li>
@@ -120,6 +134,9 @@ const Banner = () => {
                               }}
                               className="glow-on-hover"
                             >
+                              <span className="butt">
+                                <img src={Bogged} />
+                              </span>
                               BoggedChart
                             </button>
                           </li>
@@ -129,7 +146,7 @@ const Banner = () => {
                   </div>
 
                   {/* <p className="preSale"> */}
-                    {/* Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC */}
+                  {/* Presale Starts on Feb 8th 2022, Tuesday 1.30 PM UTC */}
                   {/* </p> */}
                   {/* <h5 className="timerAlign" id="targetData"></h5> */}
                 </div>
