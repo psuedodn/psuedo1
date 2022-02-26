@@ -550,10 +550,27 @@ const WhyGazo = () => {
 
         <div id="service" className="rn-service-area rn-section-gap bg_white">
           <div className="container">
+
+          <div className="col-xl-12 col-lg-12 col-sm-12 col-md-12 align-self-center">
+                    <div className="contant">
+                      <div className="section-title text-left text-center mb--10">
+                        <h2 className="title tekno mb--30 rn-about-area">
+                          Tokenomics
+                        </h2>
+                        <div className="contant">
+                          <p className="discription color_blk">
+                            $FINO is a BEP-20 token with an elastic supply that
+                            rewards holders using a positive rebase formula.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
             <div className="row justify-content-center">
               <div className="col-xl-9 col-lg-6 col-sm-12 col-md-12 ">
                 <div className="row row--25 mt_md--10 mt_sm--10">
-                  <div className="col-xl-9 col-lg-12 col-sm-12 col-md-12  ">
+                  <div className="col-xl-12 col-lg-12 col-sm-12 col-md-12  ">
                     <div className="TwoCircleAlign">
                       <img src={TwoCircle} alt="" />
                     </div>
@@ -736,7 +753,8 @@ const WhyGazo = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-3 col-lg-12 col-sm-12 col-md-12 align-self-center">
+
+                  {/* <div className="col-xl-3 col-lg-12 col-sm-12 col-md-12 align-self-center">
                     <div className="contant">
                       <div className="section-title text-left text-center mb--10">
                         <h2 className="title tekno mb--30 rn-about-area">
@@ -750,7 +768,8 @@ const WhyGazo = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+
                 </div>
               </div>
             </div>
