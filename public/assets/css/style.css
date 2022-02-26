@@ -989,6 +989,10 @@ ol ul {
   margin-top: 50px !important;
 }
 
+.mt--50 h2 {
+  color: #FFBF00;
+}
+
 .mb--50 {
   margin-bottom: 50px !important;
 }

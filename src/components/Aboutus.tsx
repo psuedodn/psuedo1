@@ -793,6 +793,11 @@ const WhyGazo = () => {
             </div>
 
             <div className="row mt--50 justify-content-center">
+                  {/* <button type="button">Fino Dao Influencers</button> */}
+                  <h2>Fino Dao Influencers</h2>
+            </div>
+            
+            <div className="row mt--50 justify-content-center">
               <div className="col-xl-6 col-lg-12 col-sm-12 col-md-12 ">
                 <ul className="flagList">
                   <li>
