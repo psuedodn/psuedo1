@@ -149,7 +149,7 @@ const Banner = () => {
                             <div className="contant aboutBlock">
                               <div className="section-title text-left">
                                 <span className="subtitle color_white">
-                                  About
+                                  About Fino Dao
                                 </span>
                                 <h2 className="title lineHAlign forMobi">
                                   Fino Auto-Staking & Auto-Compounding Protocol
