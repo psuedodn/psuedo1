@@ -774,6 +774,24 @@ const WhyGazo = () => {
               </div>
             </div>
             {/*    */}
+             
+            <div className="row mt--50 justify-content-center">
+            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open(
+                                  'https://t.me/finofinance',
+                                  '_blank'
+                                );
+                              }}
+                              className="glow-on-hover"
+                            >
+                              Telegram Official Support
+                            </button>
+                 {/* <a href="https://t.me/finofinance">Telegram</a> */}
+            </div>
+
             <div className="row mt--50 justify-content-center">
               <div className="col-xl-6 col-lg-12 col-sm-12 col-md-12 ">
                 <ul className="flagList">
