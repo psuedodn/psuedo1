@@ -84,13 +84,13 @@ const WhyGazo = () => {
                   </ul> */}
                 </nav>
 
-                <div className="header-right contactAlign">
+                {/* <div className="header-right contactAlign">
                   <a
                     className="rn-btn no-shadow btn-theme"
                     target="_blank"
                     href="#"
                   >
-                    {/* <span>Contact Us</span> */}
+                    <span>Contact Us</span>
                   </a>
                   <i
                     id="menuBtn"
@@ -101,7 +101,7 @@ const WhyGazo = () => {
                       <i data-feather="x"></i>
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
