@@ -90,7 +90,7 @@ const WhyGazo = () => {
                     target="_blank"
                     href="#"
                   >
-                    <span>Contact Us</span>
+                    {/* <span>Contact Us</span> */}
                   </a>
                   <i
                     id="menuBtn"
