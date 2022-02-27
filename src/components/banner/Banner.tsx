@@ -140,6 +140,23 @@ const Banner = () => {
                               BoggedChart
                             </button>
                           </li>
+
+                          <li className="instagram">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open(
+                                  'https://fino.tools/',
+                                  '_blank'
+                                );
+                              }}
+                              className="glow-on-hover"
+                            >
+                              APY Calculator
+                            </button>
+                          </li>
+
                         </ul>
                         <p className="addressTxt">
                           FINO Contract Address:
