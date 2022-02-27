@@ -836,7 +836,7 @@ const WhyGazo = () => {
             </div>
 
             <div className="row mt--50 justify-content-center">
-                  <h2>Fino Dao Influencers</h2>
+                  <h2>Fino DAO Influencers</h2>
             </div>
 
             <div className="row mt--50 justify-content-center">
