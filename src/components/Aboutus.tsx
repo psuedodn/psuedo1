@@ -57,7 +57,7 @@ const WhyGazo = () => {
             <div className="col-lg-7 col-sm-8">
               <div className="header-center">
                 <nav id="sideNav" className="mainmenu-nav navbar-example2">
-                  <ul className="primary-menu nav nav-pills">
+                  {/* <ul className="primary-menu nav nav-pills">
                     <li className="nav-item">
                       <a
                         className="nav-link smoth-animation active"
@@ -81,7 +81,7 @@ const WhyGazo = () => {
                         Clients
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </nav>
 
                 <div className="header-right contactAlign">
